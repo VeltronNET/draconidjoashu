@@ -104,3 +104,8 @@ blockquote {
 	font-family: "dragon language", "dragon alphabet", fantasy !important;
 	font-variant: small-caps;
 }
+
+IMG {
+  width: 75%;
+  margin: 1px;
+  }
