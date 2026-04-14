@@ -540,3 +540,6 @@ DIV.message_footer{
 DIV.message_footer DIV{
 	padding:0px;
 }
+IMG{
+ max-width: 75%;
+}
