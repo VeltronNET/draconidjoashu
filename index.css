@@ -54,7 +54,7 @@ h1 {
 }
 
 h1::before, h1::after {
-	content: url("http://3dspaint.com/images/art_gallery/249368.png");
+	content: url("/Rising_Badge.png");
 	z-index: -1;
 	position: relative;
 }
@@ -83,7 +83,7 @@ h1::before, h1::after {
 
 body {
 	background-color: black;
-	background-image: url("http://3dspaint.com/images/upload_gallery/0dd852c8-d04c-4e62-b689-399f22c3c222.jpg");
+	background-image: url("/Zinnia_Rayquaza_Portrait.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	color: cyan;
