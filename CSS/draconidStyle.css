@@ -78,7 +78,7 @@ h1::before, h1::after
 
 body::before
 {
-  content: url("/Media/Images/Venith_Flag.jpg");
+  content: url("/Media/Images/Venith_Flag.jpg") width="300";
   text-align: justify;
   display: block;
   text-align: center;
