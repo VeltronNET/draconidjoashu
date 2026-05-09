@@ -1,7 +1,5 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your HTML content. To learn how to do something, just try searching Google for questions like "how to change link color." */
 
-
-
 @font-face
 {
   font-family: "Tribal Dragon";
@@ -76,6 +74,23 @@ h1::before, h1::after
   {
     color: #2DD080;
   }
+}
+
+body::before
+{
+  content: url("/Media/Images/Venith_Flag.jpg");
+  text-align: justify;
+  display: block;
+  text-align: centercolor: #2DD080;
+  background-color: rgba(0, 0, 32, 0.9);
+  background-image: url("/images/upload_gallery/a9e89ea8-4c95-406e-865a-7d215f27be51.jpg");
+  background-position: center center;
+  border: 3px solid rgba(0, 0, 32, 0.9);
+  font-family: DSFont, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: #00D080 1px 1px 20px, #00D080 -1px -1px 20px;
 }
 
 body
