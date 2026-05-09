@@ -54,7 +54,7 @@ h1 {
 }
 
 h1::before, h1::after {
-	content: url("/Rising_Badge.png");
+	content: url("/Media/Images/Rising_Badge.png");
 	z-index: -1;
 	position: relative;
 }
@@ -83,7 +83,7 @@ h1::before, h1::after {
 
 body {
 	background-color: black;
-	background-image: url("/Zinnia_Rayquaza_Portrait.jpg");
+	background-image: url("/Media/Images/Zinnia_Rayquaza_Portrait.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	color: cyan;
