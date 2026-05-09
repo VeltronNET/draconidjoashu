@@ -1,94 +1,148 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your HTML content. To learn how to do something, just try searching Google for questions like "how to change link color." */
 
-@font-face {
-	font-family: "Tribal Dragon";
-	src: url("/Media/Fonts/Tribal_Dragon.ttf");
+
+
+@font-face
+{
+  font-family: "Tribal Dragon";
+  src: url("/Media/Fonts/Tribal_Dragon.ttf");
 }
 
-@font-face {
-	font-family: "dragon language"; src: url("/Media/Fonts/dragon_language.ttf");
+@font-face
+{
+  font-family: "dragon language"; src: url("/Media/Fonts/dragon_language.ttf");
 }
 
-@font-face {
-	font-family: "dragon alphabet"; src: url("/Media/Fonts/dragon_alphabet.ttf");
+@font-face
+{
+  font-family: "dragon alphabet"; src: url("/Media/Fonts/dragon_alphabet.ttf");
 }
 
-@font-face {
-	font-family: "DraconicScript"; src: url("/Media/Fonts/DND5EDraconicScript.ttf");
+@font-face
+{
+  font-family: "DraconicScript"; src: url("/Media/Fonts/DND5EDraconicScript.ttf");
 }
 
-@font-face {
-	font-family:"DSFont"; src: url("/Media/Fonts/ds-lite.ttf");
+@font-face
+{
+  font-family:"DSFont"; src: url("/Media/Fonts/ds-lite.ttf");
 }
 
-body:before {	content: " ";	height: 100vh;	width: 100vw;	display: block;	position: fixed; 	top: 0; 	left: 0; 	z-index: 100;	background-image: url('/Media/Images/pokemon-zinnia.gif');	background-size: cover;	background-repeat: no-repeat;background-position:center;	animation: yourAnimation 14s ease 0s 1 normal forwards;	pointer-events: none;}@keyframes yourAnimation { 0.0%{ opacity: 1;} 75%{ opacity: 1; } 100%{ opacity: 0;} } 
-
-h1 {
-	text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px;
-	text-align: center;
-	font-family: "Tribal Dragon", Luminari, fantasy;
-	font-variant: small-caps;
-	font-style: normal;
-	border: hidden;
-	background-color: transparent;
-	animation-duration: 2s;
-	animation-name: Aurorus;
-	animation-iteration-count: infinite;
-	opacity: 0.7;
+body:before
+{
+  content: " ";
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-image: url('/Media/Images/pokemon-zinnia.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: yourAnimation 14s ease 0s 1 normal forwards;
+  pointer-events: none;
 }
 
-h1::before, h1::after {
-	content: url("/Media/Images/Rising_Badge.png");
-	z-index: -1;
-	position: relative;
+@keyframes yourAnimation
+{
+  0.0%
+  {
+    opacity: 1;
+  }
+
+  75%
+  {
+    opacity: 1;
+  }
+
+  100%
+  {
+    opacity: 0;
+  }
 }
 
-@keyframes Aurorus {
-	0% {
-		color: #2DD080;
-	}
-
-	25% {
-		color: #7038F8;
-	}
-
-	50% {
-		color: #3448F0;
-	}
-
-	75% {
-		color: #00FFFF;
-	}
-
-	100% {
-		color: #2DD080;
-	}
+h1
+{
+  text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px;
+  text-align: center;
+  font-family: "Tribal Dragon", Luminari, fantasy;
+  font-variant: small-caps;
+  font-style: normal;
+  border: hidden;
+  background-color: transparent;
+  animation-duration: 2s;
+  animation-name: Aurorus;
+  animation-iteration-count: infinite;
+  opacity: 0.7;
 }
 
-body {
-	background-color: black;
-	background-image: url("/Media/Images/Zinnia_Rayquaza_Portrait.jpg");
-	background-attachment: fixed;
-	background-position: center center;
-	color: cyan;
-	font-family: "DSFont";
+h1::before, h1::after
+{
+  content: url("/Media/Images/Rising_Badge.png");
+  z-index: -1;
+  position: relative;
 }
 
-a {
-	animation-duration: 2s;
-	animation-name: Aurorus;
-	animation-iteration-count: infinite;
+@keyframes Aurorus
+{
+  0%
+  {
+    color: #2DD080;
+  }
+
+  25%
+  {
+    color: #7038F8;
+  }
+
+  50%
+  {
+    color: #3448F0;
+  }
+
+  75%
+  {
+    color: #00FFFF;
+  }
+
+  100%
+  {
+    color: #2DD080;
+  }
 }
 
-div {
-	background-color: rgba(0, 0, 32, 0.75);
+body
+{
+  background-color: black;
+  background-image: url("/Media/Images/Zinnia_Rayquaza_Portrait.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  color: cyan;
+  font-family: "DSFont";
 }
 
-blockquote {
-	font-family: "dragon language", "dragon alphabet", fantasy !important;
-	font-variant: small-caps;
+a
+{
+  animation-duration: 2s;
+  animation-name: Aurorus;
+  animation-iteration-count: infinite;
 }
 
-IMG {
+div
+{
+  background-color: rgba(0, 0, 32, 0.75);
+}
+
+blockquote
+{
+  font-family: "dragon language", "dragon alphabet", fantasy !important;
+  font-variant: small-caps;
+}
+
+IMG
+{
   max-width: 75%;
 }
