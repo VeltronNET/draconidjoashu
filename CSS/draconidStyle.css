@@ -2,23 +2,23 @@
 
 @font-face {
 	font-family: "Tribal Dragon";
-	src: url("/Tribal_Dragon.ttf");
+	src: url("/Media/Fonts/Tribal_Dragon.ttf");
 }
 
 @font-face {
-	font-family: "dragon language"; src: url("/dragon_language.ttf");
+	font-family: "dragon language"; src: url("/Media/Fonts/dragon_language.ttf");
 }
 
 @font-face {
-	font-family: "dragon alphabet"; src: url("/dragon_alphabet.ttf");
+	font-family: "dragon alphabet"; src: url("/Media/Fonts/dragon_alphabet.ttf");
 }
 
 @font-face {
-	font-family: "DraconicScript"; src: url("/DND5EDraconicScript.ttf");
+	font-family: "DraconicScript"; src: url("/Media/Fonts/DND5EDraconicScript.ttf");
 }
 
 @font-face {
-	font-family:"DSFont"; src:url(https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf);
+	font-family:"DSFont"; src: url("/Media/Fonts/ds-lite.ttf");
 }
 
 body::before
