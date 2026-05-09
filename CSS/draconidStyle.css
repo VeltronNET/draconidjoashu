@@ -21,23 +21,7 @@
 	font-family:"DSFont"; src: url("/Media/Fonts/ds-lite.ttf");
 }
 
-body::before
-{
-  content: "No doubt but there is none other beeste comparable to the mightie dragon in awesome power and majestie, and few so worthie of the diligent studies of wise homs. —Gildas Magnus, Ars Draconis, 1465";
-  text-align: justify;
-  display: block;
-  color: #2DD080;
-  background-color: rgba(0, 0, 32, 0.9);
-  background-image: url("http://3dspaint.com/images/upload_gallery/a9e89ea8-4c95-406e-865a-7d215f27be51.jpg");
-  background-position: center center;
-  border: 3px solid rgba(0, 0, 32, 0.9);
-  font-family: "dragon language", "DraconicScript", fantasy;
-  font-variant: small-caps;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  box-shadow: #00D080 1px 1px 20px, #00D080 -1px -1px 20px;
-}
+body:before {	content: " ";	height: 100vh;	width: 100vw;	display: block;	position: fixed; 	top: 0; 	left: 0; 	z-index: 100;	background-image: url('/Media/Images/pokemon-zinnia.gif');	background-size: cover;	background-repeat: no-repeat;background-position:center;	animation: yourAnimation 14s ease 0s 1 normal forwards;	pointer-events: none;}@keyframes yourAnimation { 0.0%{ opacity: 1;} 75%{ opacity: 1; } 100%{ opacity: 0;} } 
 
 h1 {
 	text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px;
