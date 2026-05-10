@@ -28,8 +28,8 @@
 
 h1
 {
-  color: #00D080;
-  text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px;
+  color: aqua;
+  text-shadow: mediumspringgreen 1px 1px 14px, mediumspringgreen -1px -1px 14px;
   text-align: center;
   font-family: "Tribal Dragon", Luminari, fantasy;
   font-variant: small-caps;
@@ -53,7 +53,7 @@ h1::before, h1::after
 {
   0%
   {
-    color: #00D080;
+    color: mediumspringgreen;
   }
 
   25%
@@ -73,7 +73,7 @@ h1::before, h1::after
 
   100%
   {
-    color: #00D080;
+    color: mediumspringgreen;
   }
 }
 
@@ -87,21 +87,25 @@ body::before
 
 body
 {
-  background-color: midnightblue;
+  background-color: #000020;
   background-image: url("/Media/Images/Zinnia_Rayquaza_Portrait.jpg");
   background-attachment: fixed;
   background-position: center center;
-  color: aqua;
+  color: #98D8D8;
   font-family: "DSFont";
   text-align: center;
 }
 
 a
 {
-  color: mediumspringgreen;
+  color: aqua;
+}
+
+a[href="//bulbapedia.bulbagarden.net/wiki/Dragon%27s_Den"]
+{
   animation-duration: 2s;
-  animation-name: Aurorus;
-  animation-iteration-count: infinite;
+  animation-name: Aurorus !important;
+  animation-iteration-count: infinite !important;
 }
 
 div
