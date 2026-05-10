@@ -28,6 +28,7 @@
 
 h1
 {
+  color: #00D080;
   text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px;
   text-align: center;
   font-family: "Tribal Dragon", Luminari, fantasy;
@@ -52,7 +53,7 @@ h1::before, h1::after
 {
   0%
   {
-    color: #2DD080;
+    color: #00D080;
   }
 
   25%
@@ -62,17 +63,17 @@ h1::before, h1::after
 
   50%
   {
-    color: #3448F0;
+    color: #6890F0;
   }
 
   75%
   {
-    color: #00FFFF;
+    color: aqua;
   }
 
   100%
   {
-    color: #2DD080;
+    color: #00D080;
   }
 }
 
@@ -86,16 +87,17 @@ body::before
 
 body
 {
-  background-color: black;
+  background-color: midnightblue;
   background-image: url("/Media/Images/Zinnia_Rayquaza_Portrait.jpg");
   background-attachment: fixed;
   background-position: center center;
-  color: cyan;
+  color: aqua;
   font-family: "DSFont";
 }
 
 a
 {
+  color: mediumspringgreen;
   animation-duration: 2s;
   animation-name: Aurorus;
   animation-iteration-count: infinite;
