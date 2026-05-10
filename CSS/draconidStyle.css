@@ -123,3 +123,7 @@ IMG
 {
   max-width: 75%;
 }
+
+div.row {
+   display: inline-block;
+}
