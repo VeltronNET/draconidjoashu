@@ -124,18 +124,6 @@ IMG
   max-width: 75%;
 }
 
-div.row {
+div.socialsIcon {
    display: inline-block;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
