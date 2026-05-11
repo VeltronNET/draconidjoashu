@@ -124,6 +124,8 @@ IMG
   max-width: 75%;
 }
 
-div.column {
+div.row {
    display: inline-block;
+   max-height: 72px;
+   text-align: center;
 }
