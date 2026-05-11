@@ -126,4 +126,5 @@ IMG
 
 div.socialsIcon {
    display: inline-block;
+   text-align: justified;
 }
