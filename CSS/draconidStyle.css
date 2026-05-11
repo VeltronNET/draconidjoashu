@@ -126,6 +126,11 @@ IMG
 
 div.row {
    display: inline-block;
-   max-height: 72px;
+   float: left;
+   font-size: 8pt;
+   height: 96px;
+   line-height: 9pt;
+   margin: 2px;
    text-align: center;
+   width: 74px;
 }
