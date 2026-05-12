@@ -108,7 +108,7 @@ a[href="//bulbapedia.bulbagarden.net/wiki/Dragon%27s_Den"]
   animation-iteration-count: infinite !important;
 }
 
-div
+div.backdrop
 {
   background-color: rgba(0, 0, 32, 0.75);
 }
