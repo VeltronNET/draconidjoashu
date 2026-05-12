@@ -129,3 +129,9 @@ div.socialsIcon {
    min-height: 64px;
    min-width: 64px;
 }
+
+::selection
+{
+  background-color: #000020;
+  color: mediumspringgreen;
+}
