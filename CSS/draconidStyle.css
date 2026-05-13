@@ -87,11 +87,11 @@ body::before
 
 body
 {
-  background-color: #000020;
+  background-color: black;
   background-image: url("/Media/Images/Zinnia_Rayquaza_Portrait.jpg");
   background-attachment: fixed;
   background-position: center center;
-  color: #98D8D8;
+  color: white;
   font-family: "DSFont";
   text-align: center;
 }
