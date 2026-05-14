@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/favicon.png" type="image/png" />
     <link href="/CSS/draconidStyle.css" rel="stylesheet" type="text/css" media="all">
   </head>
-<body onload="document.body.style.cssText = 'background-image: url(\"/Media/Images/Zinnia_Rayquaza_Portrait.jpg\"); background-size: cover;'">
+<body onload="setBackground()" alink="#00ffff" bgcolor="#000020" link="#00ffff" text="#98D8D8" vlink="#00ffff">
     <div class="backdrop">
       <center>
         <img src="/Media/Images/Dragon's_Den.jpg" width="250" alt="Joashu★, Gyaranami, and Ibuki (Clair) in the Dragon's Den. ❤">
@@ -183,5 +183,16 @@
         <br><img src="/Media/Images/Moémon_Rayquaza.jpg" width="250" alt="Ryuujin-sama (Lady Rayquaza) in Her Moémon form">
       </blockquote>
     </div>
+    <script>
+    function setBackground() {
+      // Set the background image
+      document.body.style.backgroundImage = "url('/Media/Images/Zinnia_Rayquaza_Portrait.jpg')";
+      // Optional: Adjust background properties for better rendering
+      document.body.style.backgroundSize = "cover";
+      document.body.style.backgroundRepeat = "no-repeat";
+      document.body.style.backgroundPosition = "center center";
+      document.body.style.backgroundAttachment = "fixed"; // Optional: For fixed backgrounds
+    }
+  </script>
   </body>
 </html>
